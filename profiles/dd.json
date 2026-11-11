@@ -1,0 +1,37 @@
+{
+  "name": "dd",
+  "target": {
+    "name": "Target Object",
+    "image_path": "C:\\Users\\Phong Tran\\.gemini\\antigravity\\scratch\\smart-auto-clicker\\templates\\target_20261111_095208.png",
+    "confidence": 0.7434782608695651,
+    "search_region": null,
+    "multi_scale": true,
+    "grayscale": true
+  },
+  "sequence": [
+    {
+      "step_type": "fixed_coords",
+      "x": 1448,
+      "y": 512,
+      "button": "left",
+      "clicks": 1,
+      "delay_after": 2.36,
+      "key": "",
+      "note": "Recorded left click #1"
+    },
+    {
+      "step_type": "fixed_coords",
+      "x": 1399,
+      "y": 465,
+      "button": "left",
+      "clicks": 1,
+      "delay_after": 0.3,
+      "key": "",
+      "note": "Recorded left click #2"
+    }
+  ],
+  "poll_interval": 0.3,
+  "cooldown": 1.0,
+  "trigger_mode": "continuous",
+  "max_triggers": 10
+}
